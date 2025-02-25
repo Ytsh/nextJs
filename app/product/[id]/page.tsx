@@ -23,7 +23,6 @@ export default function ProductDetailPage() {
 
   const handleAddItem = (item) =>{
     dispatch(addToCart(item))
-    console.log(cartItems);
   }
 
   useEffect(() => {

@@ -38,6 +38,7 @@ export default function RootLayout({
             <div style={{marginLeft:'210px'}}>
               {children}
             </div>
+            
         </StoreProvider>
       </body>
     </html>
